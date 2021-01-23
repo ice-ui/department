@@ -1,0 +1,18 @@
+@import "../../../styles/common.scss";
+@import "../../../styles/colors.scss";
+
+
+table {
+    margin: 0 auto;
+    width: 1206px;
+    margin-top: 44px;
+
+    th {
+        height: 64px;
+        background-color: #02427F;
+        font-size: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        line-height: 64px;
+    }
+}

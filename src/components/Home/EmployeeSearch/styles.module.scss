@@ -1,0 +1,43 @@
+@import "../../../styles/common.scss";
+@import "../../../styles/colors.scss";
+
+.content {
+    width: 1440px;
+    height: 120px;
+    margin: 0 auto;
+    position: relative;
+
+    .search_box {
+        width: 1119px;
+        height: 80px;
+        background-color: #FFFFFF;
+        position: absolute;
+        top: 40px;
+        left: 117px;
+        border-radius: 40px;
+        box-shadow: 0 1px 4px 0 raba(0, 0, 0, .5);
+
+        .search_icon {
+            display: block;
+            width: 35px;
+            height: 35px;
+            padding: 22px 0 0 30px;
+        }
+
+        .input {
+            margin: -11px 0 0 104px;
+            font-size: 22px;
+            width: 176px;
+            height: 30px;
+            line-height: 30px;
+        }
+    }
+
+    .add_icon {
+        width: 48px;
+        height: 48px;
+        position: absolute;
+        top: 56px;
+        right: 120px;
+    }
+}

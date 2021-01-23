@@ -1,0 +1,68 @@
+@import "../../../styles/common.scss";
+@import "../../../styles/colors.scss";
+
+.nav {
+    width: 1206px;
+    height: 60px;
+    margin: 0 auto;
+
+    .select_list {
+        width: 1206px;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 40px;
+
+        .header_right {
+            display: flex;
+            flex-direction: row;
+
+            .switch,
+            .order {
+                height: 60px;
+                border-radius: 31px;
+                border: 1px solid #979797;
+                text-align: center;
+                line-height: 60px;
+            }
+
+            .order {
+                width: 170px;
+                background-color: #FFFFFF;
+                font-size: 22px;
+                color: #424242;
+                appearance: none;
+                outline: none;
+                margin-right: 36px;
+                padding-left: 23px;
+                background: url("../../../assets/icon_expand_more.png") no-repeat scroll right center transparent;
+            }
+
+            .switch {
+                width: 150px;
+                background-color: #e0e0e0;
+                position: relative;
+
+                .view_list {
+                    width: 48px;
+                    height: 48px;
+                    border-radius: 50%;
+                    position: absolute;
+                    top: 6px;
+                    left: 7px;
+                    background-color: #fff;
+                    padding-top: 3px;
+                }
+
+                .view_module {
+                    width: 40px;
+                    height: 40px;
+                    position: absolute;
+                    top: 10px;
+                    right: 11px;
+                }
+            }
+        }
+    }
+}
